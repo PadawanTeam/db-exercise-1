@@ -17,7 +17,7 @@ create table jogos (
 	preco DECIMAL(10.2) NOT NULL,
 	plataforma VARCHAR(50) NOT NULL);
 ```
-	
+
 ###Inserindo os dados na tabela jogos
 
 ```javascript
@@ -32,6 +32,7 @@ INSERT INTO jogos VALUES(NULL,'God of War','Ação',199.00,'Playstation 3'),
 (NULL,'Counter Strike GO','Tiro',25.00,'PC'),
 (NULL,'Left 4 Dead 2','Tiro',10.00,'PC');
 ```
+
 ============================================================
 
 ###Criando a tabela remedios
@@ -59,6 +60,7 @@ create table remedios (
     (NULL,'Eno Guaraná','WW Industries',35.00,'S'),
     (NULL,'Gardenal','WW Industries',22.00,'N');
 ```
+
 ===========================================================
 
 ###Verificando os dados
