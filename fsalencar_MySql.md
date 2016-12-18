@@ -7,15 +7,18 @@ create database wallmart
 
 ###Criando a tabela jogos
 
+```javascript
 create table jogos (
 	id INT(10) AUTO_INCREMENT PRIMARY KEY,
 	nome VARCHAR(100) NOT NULL,
 	genero VARCHAR(50) NOT NULL,
 	preco DECIMAL(10.2) NOT NULL,
 	plataforma VARCHAR(50) NOT NULL);
+```
 
 ###Inserindo os dados na tabela jogos
 
+```javascript
 INSERT INTO jogos VALUES(NULL,'God of War','Ação',199.00,'Playstation 3'),
 (NULL,'Skyrim','RPG',130.00,'XBOX, PS4, PC'),
 (NULL,'Halo','Ação',199.00,'XBOX 360'),
@@ -26,21 +29,24 @@ INSERT INTO jogos VALUES(NULL,'God of War','Ação',199.00,'Playstation 3'),
 (NULL,'Playboy the Mansion','Pegadinha',110.00,'PC'),
 (NULL,'Counter Strike GO','Tiro',25.00,'PC'),
 (NULL,'Left 4 Dead 2','Tiro',10.00,'PC');
+```
 
 ============================================================
 
 ###Criando a tabela remedios
 
+```javascript
 create table remedios (
 	id INT(10) AUTO_INCREMENT PRIMARY KEY,
 	nome VARCHAR(100) NOT NULL,
 	laboratorio VARCHAR(50) NOT NULL,
 	preco DECIMAL(10.2) NOT NULL,
 	generico VARCHAR(2) NOT NULL);
-
+```
 
 ###Inserindo os dados na tabela remedios
 
+```javascript
  INSERT INTO remedios  VALUES(NULL,'Berotec','WW Industries',33.00,'N'),
     (NULL,'Besectasil','WW Industries',10.00,'N'),
     (NULL,'Remedio pra Fimose','WW Industries',50.00,'N'),
@@ -51,12 +57,13 @@ create table remedios (
     (NULL,'AAS','WW Industries',07.00,'S'),
     (NULL,'Eno Guaraná','WW Industries',35.00,'S'),
     (NULL,'Gardenal','WW Industries',22.00,'N');
-
+```
 
 ===========================================================
 
 ###Verificando os dados
 
+```javascript
 SELECT * FROM jogos;
 
 ###Resultado da query
@@ -79,7 +86,9 @@ SELECT * FROM jogos;
 
 ____________________________________________________________
 
+```javascript
 SELECT * FROM remedios;
+```
 
 ###Resultado da query
 
