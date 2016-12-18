@@ -3,7 +3,9 @@ ______________________________
 
 ###Criando o banco de dados
 
+```javascript
 create database wallmart
+```
 
 ###Criando a tabela jogos
 
@@ -65,9 +67,11 @@ create table remedios (
 
 ```javascript
 SELECT * FROM jogos;
+```
 
 ###Resultado da query
 
+```javascript
 +----+----------------------+-----------+-------+---------------+
 | id | nome                 | genero    | preco | plataforma    |
 +----+----------------------+-----------+-------+---------------+
@@ -83,7 +87,7 @@ SELECT * FROM jogos;
 | 10 | Left 4 Dead 2        | Tiro      |    10 | PC            |
 +----+----------------------+-----------+-------+---------------+
 10 rows in set (0,00 sec)
-
+```
 ____________________________________________________________
 
 ```javascript
@@ -92,6 +96,7 @@ SELECT * FROM remedios;
 
 ###Resultado da query
 
+```javascript
 +----+--------------------+---------------+-------+----------+
 | id | nome               | laboratorio   | preco | generico |
 +----+--------------------+---------------+-------+----------+
@@ -107,3 +112,4 @@ SELECT * FROM remedios;
 | 10 | Gardenal           | WW Industries |    22 | N        |
 +----+--------------------+---------------+-------+----------+
 10 rows in set (0,00 sec)
+```
